@@ -11,7 +11,7 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, TimeDistributed, LSTM
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.layers import TimeDistributed, LSTM, Dense, Dropout, GlobalAveragePooling2D
-from tensorflow.keras.applications import VGG16
+from tensorflow.keras.applications import DenseNet121
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
